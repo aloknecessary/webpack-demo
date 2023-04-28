@@ -24,9 +24,9 @@
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
     "mini-css-extract-plugin": "^2.7.5",
-    "node-sass": "^8.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "rimraf": "^5.0.0",
+    "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
     "terser-webpack-plugin": "^5.3.7",
@@ -41,6 +41,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf ./dist",
+    "clean-nm": "rimraf ./node_modules",
     "build": "webpack --config=webpack.config.prod.js",
     "build-dev": "webpack --config=webpack.config.dev.js",
     "start": "webpack-dev-server --config=webpack.config.dev.js --open"
