@@ -32,5 +32,6 @@
     "build": "webpack --config=webpack.config.prod.js",
     "build-dev": "webpack --config=webpack.config.dev.js",
     "start": "webpack-dev-server --config=webpack.config.dev.js --open"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }
