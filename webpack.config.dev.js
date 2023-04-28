@@ -1,31 +1,35 @@
-const path = require('path');
-const merge = require('webpack-merge');
-const commonConfig = require('./webpack.config.common');
-
+const path = require("path");
+const { merge } = require("webpack-merge");
+const commonConfig = require("./webpack.config.common");
 
 module.exports = merge(commonConfig, {
-  mode: 'development',
-  devtool: 'inline-source-map',
+  mode: "development",
+  devtool: "inline-source-map",
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    port: 8080,
+    hot: "only",
+    static: {
+      directory: path.join(__dirname, "dist"),
+      serveIndex: true,
+    },
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
-          'style-loader',
+          "style-loader",
           // Translates CSS into CommonJS
-          'css-loader',
+          "css-loader",
           // Compiles Sass to CSS
-          'sass-loader',
+          "sass-loader",
         ],
       },
-    ]
-  }
+    ],
+  },
 });
