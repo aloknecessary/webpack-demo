@@ -9786,30 +9786,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-demo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "webpack-demo@workspace:."
-  dependencies:
-    "@babel/core": ^7.9.0
-    "@babel/preset-env": ^7.9.0
-    babel-loader: ^8.1.0
-    clean-webpack-plugin: ^3.0.0
-    css-loader: ^3.4.2
-    html-webpack-plugin: ^4.0.3
-    mini-css-extract-plugin: ^0.9.0
-    node-sass: ^7.0.0
-    optimize-css-assets-webpack-plugin: ^5.0.3
-    path: ^0.12.7
-    sass-loader: ^8.0.2
-    style-loader: ^1.1.3
-    terser-webpack-plugin: ^2.3.5
-    webpack: ^4.42.1
-    webpack-cli: ^3.3.11
-    webpack-dev-server: ^3.10.3
-    webpack-merge: ^4.2.2
-  languageName: unknown
-  linkType: soft
-
 "webpack-dev-middleware@npm:^3.7.2":
   version: 3.7.2
   resolution: "webpack-dev-middleware@npm:3.7.2"
@@ -9891,6 +9867,30 @@ __metadata:
   checksum: ce58bc8ab53a3dd5d9a0df65684571349eef53372bf8f224521072110485391335b26ab097c5f07829b88d0c146056944149566e5a953f05997b0fe2cbaf8dd6
   languageName: node
   linkType: hard
+
+"webpack-setup-demo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "webpack-setup-demo@workspace:."
+  dependencies:
+    "@babel/core": ^7.9.0
+    "@babel/preset-env": ^7.9.0
+    babel-loader: ^8.1.0
+    clean-webpack-plugin: ^3.0.0
+    css-loader: ^3.4.2
+    html-webpack-plugin: ^4.0.3
+    mini-css-extract-plugin: ^0.9.0
+    node-sass: ^7.0.0
+    optimize-css-assets-webpack-plugin: ^5.0.3
+    path: ^0.12.7
+    sass-loader: ^8.0.2
+    style-loader: ^1.1.3
+    terser-webpack-plugin: ^2.3.5
+    webpack: ^4.42.1
+    webpack-cli: ^3.3.11
+    webpack-dev-server: ^3.10.3
+    webpack-merge: ^4.2.2
+  languageName: unknown
+  linkType: soft
 
 "webpack-sources@npm:^1.1.0, webpack-sources@npm:^1.4.0, webpack-sources@npm:^1.4.1, webpack-sources@npm:^1.4.3":
   version: 1.4.3

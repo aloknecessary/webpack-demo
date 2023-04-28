@@ -1,4 +1,4 @@
-# webpack-demo
+# webpack-setup-demo
 
 # Introduction
 
@@ -6,7 +6,7 @@ Project is setup to use Yarn 2 for package and build. You can choose to use NPM 
 
 Read why Yarn 2 makes sense : https://yarnpkg.com/getting-started/qa#why-should-you-upgrade-to-yarn-modern
 
-If you do not wish to use Yarn 2 then move to section - "Getting Started"
+If you do not wish to use Yarn 2 then move to section - "Setting up with Yarn 2"
 
 ## Setting up with Yarn 2
 
@@ -20,8 +20,10 @@ yarn set version berry
 
 yarn set version stable
 
-Complete webpack setup for development & production use.
+This setup is all about how to use webpack setup for development & production.
 
 [Please refer to my medium article for complete setup](https://ideas.byteridge.com/webpack-bundle-your-frontend-apps/)
 
-Thank you
+Thank you,
+
+-Alok
